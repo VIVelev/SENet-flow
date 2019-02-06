@@ -4,6 +4,8 @@ Squeeze-and-Excitation Network (SENet) implementation in [TensorFlow](https://ww
 ***You can find the original paper [here](https://arxiv.org/pdf/1709.01507.pdf)*** <br>
 written by Jie Hu, Li Shen, Gang Sun.
 
+If you want to see ***the original author's code***, please refer to this [link](https://github.com/hujie-frank/SENet)
+
 ## What is SENet?
 <div align="center">
   <img src="https://github.com/VIVelev/SENet-flow/blob/master/figures/SE-pipeline.jpg">
