@@ -1,5 +1,5 @@
 # SENet-flow
-Squeeze-and-Excitation Networks (SENets) implementation in in [TensorFlow](https://www.tensorflow.org).
+Squeeze-and-Excitation Network (SENet) implementation in [TensorFlow](https://www.tensorflow.org).
 
 ***You can find the original paper [here](https://arxiv.org/pdf/1709.01507.pdf)*** <br>
 written by Jie Hu, Li Shen, Gang Sun.
