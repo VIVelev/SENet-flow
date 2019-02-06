@@ -28,3 +28,22 @@ If you want to see ***the original author's code***, please refer to this [link]
 <p align="center">
   Figure 2: Schema of SE-Inception and SE-ResNet modules.
 </p>
+<br>
+
+### Hyperparameters
+ - Reduction Ratio - controls the bottleneck size (the number of units in the bottleneck dense layer).
+<div align="center">
+   <img src="https://github.com/VIVelev/SENet-flow/blob/master/figures/Reduction-Ratio.jpg" width="420">
+</div>
+<p align="center">
+  Figure 3: Different choices for the Reduction Ratio hyperparameter and the consequent results.
+</p>
+
+## Why should you use Squeeze-and-Excitation Netwroks
+### State-of-the-art performace on ILSVRC 2017 (ImageNet 2017 dataset)
+<div align="center">
+   <img src="https://github.com/VIVelev/SENet-flow/blob/master/figures/State-of-the-art.jpg" width="420">
+</div>
+<p align="center">
+  Figure 4: State-of-the-art performace on ILSVRC 2017.
+</p>
