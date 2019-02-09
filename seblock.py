@@ -5,7 +5,7 @@ __all__ = [
 ]
 
 
-def squeeze_and_excitation_block(input_X, out_dim, reduction_ratio=16, layer_name='SE-block'):
+def squeeze_and_excitation_block(input_X, reduction_ratio=16, layer_name='SE-block'):
     """Squeeze-and-Excitation (SE) Block
 
     SE block to perform feature recalibration - a mechanism that allows
@@ -14,6 +14,8 @@ def squeeze_and_excitation_block(input_X, out_dim, reduction_ratio=16, layer_nam
     features and suppress less useful ones
     """
 
+
+    out_dim = input_X.shape[-1]
 
     with tf.name_scope(layer_name):
 
