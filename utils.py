@@ -13,7 +13,7 @@ def conv2d_layer(input_X, n_filters=3, size=[1, 1], strides=[1, 1, 1, 1], paddin
     with tf.name_scope(name) as nscope:
         with tf.variable_scope(name+'-variables') as vscope:
             W = tf.get_variable(name='W', shape=[*size, n_C, n_filters], initializer=tf.contrib.layers.xavier_initializer())
-            b = tf.get_variable(name='b', shape=[1, 1], initializer=tf.initializers.zeros())
+            b = tf.get_variable(name='b', shape=[1, 1, 1, n_filters], initializer=tf.initializers.zeros())
 
         Z = tf.nn.conv2d(input_X, W, strides=strides, padding=padding, dilations=dilations)
         Z = Z + b
